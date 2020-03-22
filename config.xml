@@ -24,5 +24,4 @@ phonegaptest
         <allow-intent href="itms-apps:*" />
     </platform>
     <preference name="android-minSdkVersion" value="16" />
-    <plugin name="onesignal-cordova-plugin" spec="~2.8.4" />
 </widget>
