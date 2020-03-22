@@ -29,14 +29,14 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 
-        // Add to index.js or the first page that loads with your app.
+
+// Add to index.js or the first page that loads with your app.
 // For Intel XDK and please add this to your app.js.
 
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
-
-  window.plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
-    alert("test");
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+alert("yes");
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
@@ -46,6 +46,10 @@ document.addEventListener('deviceready', function () {
     .handleNotificationOpened(notificationOpenedCallback)
     .endInit();
 }, false);
+
+
+
+
     },
 
     // Update DOM on a Received Event
@@ -62,3 +66,4 @@ document.addEventListener('deviceready', function () {
 };
 
 app.initialize();
+
