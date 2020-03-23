@@ -43,7 +43,10 @@ alert("yes");
 
   window.plugins.OneSignal
     .startInit("1efd3206-9517-4006-b656-8fd0e9465981")
-    .handleNotificationOpened(notificationOpenedCallback)
+      .handleNotificationReceived(function(notificationData) {
+    alert("Notification Received:\n" + JSON.stringify(notificationData));
+    console.log('Notification Received: ' + JSON.stringify(notificationData));
+  })
     .endInit();
 }, false);
 
