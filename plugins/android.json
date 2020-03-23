@@ -1,21 +1,24 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+    "config_munge": {
+        "files": {}
     },
-    "cordova-support-google-services": {
-      "PACKAGE_NAME": "com.realdealagency.phonegaptest"
-    }
-  },
-  "dependent_plugins": {}
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+        },
+        "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+        },
+        "cordova-support-google-services": {
+            "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+        }
+    },
+    "dependent_plugins": {}
 }
