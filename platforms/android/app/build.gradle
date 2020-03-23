@@ -98,7 +98,6 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../onesignal-cordova-plugin/phonegaptest-build-extras-onesignal.gradle"
 apply from: "../cordova-plugin-firebase/phonegaptest-build.gradle"
 apply from: "../cordova-support-google-services/phonegaptest-build.gradle"
 // PLUGIN GRADLE EXTENSIONS END
@@ -296,7 +295,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    implementation "com.onesignal:OneSignal:3.12.7"
     implementation "com.google.android.gms:play-services-tagmanager:+"
     implementation "com.google.firebase:firebase-core:+"
     implementation "com.google.firebase:firebase-messaging:+"

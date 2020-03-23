@@ -35,19 +35,17 @@ var app = {
 
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
- //window.plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
-alert("yes");
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
-        
-    window.plugins.OneSignal
-  .startInit("1efd3206-9517-4006-b656-8fd0e9465981")
-   .handleNotificationOpened(notificationOpenedCallback)
-   .endInit();
 
+  window.plugins.OneSignal
+    .startInit("1efd3206-9517-4006-b656-8fd0e9465981")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
 }, false);
-
 
 
 
