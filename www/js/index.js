@@ -40,7 +40,8 @@ alert("yes");
   var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
-
+window.plugins.OneSignal.setRequiresUserPrivacyConsent(true);
+         
   window.plugins.OneSignal
     .startInit("1efd3206-9517-4006-b656-8fd0e9465981")
       .handleNotificationReceived(function(notificationData) {
