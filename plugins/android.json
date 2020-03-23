@@ -15,6 +15,9 @@
     },
     "cordova-plugin-firebase": {
       "PACKAGE_NAME": "com.realdealagency.phonegaptest"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.realdealagency.phonegaptest"
     }
   },
   "dependent_plugins": {}

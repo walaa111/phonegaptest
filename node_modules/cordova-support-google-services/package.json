@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-support-google-services",
+        "scope": null,
+        "escapedName": "cordova-support-google-services",
+        "name": "cordova-support-google-services",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\test_github\\phonegaptest\\phonegaptest"
+    ]
+  ],
+  "_from": "cordova-support-google-services@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-support-google-services@1.4.0",
+  "_inCache": true,
+  "_location": "/cordova-support-google-services",
+  "_nodeVersion": "8.16.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-support-google-services_1.4.0_1584253976256_0.8322979082791855"
+  },
+  "_npmUser": {
+    "name": "chemerisuk",
+    "email": "chemerisuk@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-support-google-services",
+    "scope": null,
+    "escapedName": "cordova-support-google-services",
+    "name": "cordova-support-google-services",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-support-google-services/-/cordova-support-google-services-1.4.0.tgz",
+  "_shasum": "a337f53cd4648d867fe9a12e94c1cae05ddc2556",
+  "_shrinkwrap": null,
+  "_spec": "cordova-support-google-services",
+  "_where": "D:\\test_github\\phonegaptest\\phonegaptest",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-support-google-services/issues"
+  },
+  "cordova": {
+    "id": "cordova-support-google-services",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin to add google service support",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-GQBrZtnJQmRn7J6biJrG1GD9dm3mEmH/+RoG640qkavS9CMehTJTjDJO52nlnYzKyX4AILEIzx9r9gw/Cbts3Q==",
+    "shasum": "a337f53cd4648d867fe9a12e94c1cae05ddc2556",
+    "tarball": "https://registry.npmjs.org/cordova-support-google-services/-/cordova-support-google-services-1.4.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6635,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJebcwYCRA9TVsSAnZWagAAqhYQAJ62my0uzU2LS06Snunm\nPg0si1+WSM8XukctPYJiLmCWGtT0zfPkEXKThnskrk24pJwJmCFQvpc22i0u\nMOiXkbVl0kxK/gD205sKnesl9KWMwth0dKeVVWygRyTrvIMf72/R8HgHLdMM\nJcmbfLHo+rOyPNGD77taVwQXIB/qWHLukUbTTCmRulZz2UrYa7MZiHUF3O6N\nwfY54vGr3wHXXIhe3fSxUsepHMohWNCmqVUMASxeDh1uy6dzpTUtrz4Xv7kT\n71bl+LINuEIZ70QhJthS3dISY98Fp5RwJZbFWO8ozdrM4KkXdgIhkPR3nSnI\nbmfRV5FdOvJ7/xFaMU1hYQ/id8Vr0GTSNR8qJEhL4EG1s94xAMC1Yy0LK1TO\nme/eGCtDZGEJQ202+orMoEgrAeYjV+WDXvrYqQo6n3+CDGnidMJprsMO796y\neJwH6nF2qE0GSDVwNIPcNzC/ZKnJ5XClmw+xv5slaNutTkNJMDSubm/c6aPJ\nUMn5lKsTxRJR67a9sG4q8i02sNXEdbSXSrt5ttmEoovTQqgft+MtpLqjyave\n+q9dZInvQjgLmMYPLhIgMLegyRgi8zRGCgKkrWRxTDGUQuiWz93HweEPemQX\n4xWDjlkPUvgJjuIGyHSbhugjoWaq5sUtLPy0k2fhwocnpAU8BCOQQj5xH/im\nN7yF\r\n=ifVd\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "5d4028acb14125316502bb22a07d86ddcac2e8cd",
+  "homepage": "https://github.com/chemerisuk/cordova-support-google-services#readme",
+  "keywords": [
+    "cordova",
+    "google services",
+    "firebase",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "chemerisuk",
+      "email": "chemerisuk@gmail.com"
+    }
+  ],
+  "name": "cordova-support-google-services",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-support-google-services.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "1.4.0"
+}
