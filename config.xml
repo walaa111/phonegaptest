@@ -18,11 +18,10 @@ phonegaptest
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <preference name="android-minSdkVersion" value="17" />
+        <preference name="android-minSdkVersion" value="14" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="onesignal-cordova-plugin" spec="~2.8.4" />
 </widget>
