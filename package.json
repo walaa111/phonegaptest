@@ -20,7 +20,8 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-firebase": {},
-      "cordova-support-google-services": {}
+      "cordova-support-google-services": {},
+      "onesignal-cordova-plugin": {}
     },
     "platforms": [
       "android"
